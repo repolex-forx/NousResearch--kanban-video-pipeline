@@ -1,0 +1,36 @@
+{
+  "manifest_version": "1.0",
+  "org": "NousResearch",
+  "repo": "kanban-video-pipeline",
+  "versions": [
+    {
+      "commit": "a464bdda58d9d7784225d972668129323de519a3",
+      "parsed_at": "2026-10-02T11:17:51.103228+00:00",
+      "tag": "main",
+      "filetree": "filetree/a464bdda58d9d7784225d972668129323de519a3.nq.gz",
+      "blobs": [
+        "blob/eb0b5a3038230f0953df0eeeb44b5a25cdd07ed6.nq.gz",
+        "blob/28e39343149461294597001d5230edba5f191e27.nq.gz",
+        "blob/3393ccf0b6fcbae67fa2e6aac91d5637f3b56a40.nq.gz",
+        "blob/9ff4996819a6f5afbfe29ce1e810b4e739bd6a60.nq.gz",
+        "blob/c386a7f6ed6bbee9303625afc8ebdc019ec8e8b5.nq.gz",
+        "blob/d1e576968c3aa716a90e7280e69cf540fe07c700.nq.gz",
+        "blob/abccddfc588f619eec4c53388a4e5e98eca9e127.nq.gz",
+        "blob/ed1f6fe374ed56439b6896ccba1e49c66a0474dd.nq.gz",
+        "blob/20b87f0d7e6311f5073968f185069d53e3a5a670.nq.gz",
+        "blob/4cdc7f99b1a944d052d188a7158f98aa502f7d2c.nq.gz",
+        "blob/e1780a532938be9e7eb511a94a19ab037e905635.nq.gz",
+        "blob/f2addaad949bf3805b393976229804bc1a700f98.nq.gz",
+        "blob/76ee2f79900d39505accaa0eb7942c9ba56f6405.nq.gz",
+        "blob/7302ed7a3ec5045bdb9e0dda7583ee1a970ca957.nq.gz",
+        "blob/b42b49b1c1313696229dc8407e04b2e56f2a91bc.nq.gz",
+        "blob/ea98a0372adad4d497c0865c6127e1ad0eeff36a.nq.gz",
+        "blob/7ee5903dc1f4ef84c9fc07241a0b53523282f40a.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}

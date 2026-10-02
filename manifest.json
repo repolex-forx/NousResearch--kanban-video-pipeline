@@ -56,7 +56,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/scipy/signal/_signaltools.py"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/a464bdda58d9d7784225d972668129323de519a3/chunk-001.nq.gz",
+      "dep": "dep/a464bdda58d9d7784225d972668129323de519a3.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",

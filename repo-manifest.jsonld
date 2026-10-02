@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/NousResearch/kanban-video-pipeline/commit/a464bdda58d9d7784225d972668129323de519a3",
       "git:hexsha": "a464bdda58d9d7784225d972668129323de519a3",
-      "repolex:parseStatus": "ast_complete",
+      "repolex:parseStatus": "enrich_complete",
       "git:tagName": "main"
     }
   ]

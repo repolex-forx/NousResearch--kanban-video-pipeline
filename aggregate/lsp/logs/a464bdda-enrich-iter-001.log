@@ -1,0 +1,17 @@
+[2026-10-02T11:21:09Z] === ENRICH ITERATION 1 START | repo=NousResearch/kanban-video-pipeline sha=a464bdda ===
+[2026-10-02T11:21:09Z] [iter=1] PHASE START: enrich repo=NousResearch/kanban-video-pipeline sha=a464bdda runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a464bdda-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a464bdda58d9d7784225d972668129323de519a3.nq.gz
+[2026-10-02T11:21:09Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-10-02T11:21:16Z] [iter=1] AST store loaded triples=251122 load_secs=6 mem_mb=475 MB
+[2026-10-02T11:21:16Z] [iter=1] Step 2: Finding LSP targets mem_mb=475 MB
+[2026-10-02T11:21:16Z] [iter=1] LSP targets found call_sites=1928 imports=57 extends=0 implements=0 secs=0
+[2026-10-02T11:21:16Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=475 MB
+[2026-10-02T11:21:17Z] [iter=1] Position index built positions=16556 nodes_with_types=21348 secs=1 mem_mb=475 MB
+[2026-10-02T11:21:17Z] [iter=1] Step 3: Starting LSP resolution mem_mb=475 MB already_completed_types=[] already_completed_files=0
+[2026-10-02T11:21:17Z] [iter=1] Resolving target type target_type=call_site count=1928
+[2026-10-02T11:21:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=5 resolved=1014 errors=110 current=render-scripts/scene-04/render.py
+[2026-10-02T11:21:55Z] [iter=1] Target type resolved target_type=call_site resolved=1354 errors=143 secs=39 mem_mb=475 MB
+[2026-10-02T11:21:55Z] [iter=1] Resolving target type target_type=import_statement count=57
+[2026-10-02T11:21:56Z] [iter=1] Target type resolved target_type=import_statement resolved=56 errors=0 secs=1 mem_mb=475 MB
+[2026-10-02T11:22:00Z] [iter=1] Step 5: Writing final enrichment file triples=18073
+[2026-10-02T11:22:00Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/a464bdda58d9d7784225d972668129323de519a3.nq.gz size_kb=311
+[2026-10-02T11:22:00Z] [iter=1] PHASE END: enrich elapsed_s=51 elapsed_min=0.8 total_triples=18073
